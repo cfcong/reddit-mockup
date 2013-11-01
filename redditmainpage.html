@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reddit</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<!--Navigation bar here-->
+	<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Reddit</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Subreddit<b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.google.ca">Subreddit #1</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.gmail.ca">Subreddit #2</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.facebook.ca">Subreddit #3</a>
+          </li>
+        </ul>
+      </li>  
+      <li class="dropdown">
+        <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Sorting<b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.google.ca">Hot</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.gmail.ca">New</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.facebook.ca">Rising</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.google.ca">Controversial</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.gmail.ca">Top</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.facebook.ca">Gilded</a>
+          </li>
+          <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="www.google.ca">Wiki</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div><!-- /.navbar-collapse -->
+</nav>
+  
+  <!--Login and Submit Post Div-->
+    <div class="loginbuttons">
+    <!--Login Form-->
+      <form class="form-inline" role="form">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputEmail2">Username</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter Username">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputPassword2">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label>
+          <input type="checkbox"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Sign in</button>
+      </form>
+    </div>
+
+  <!--Post Feed-->
+  <br>
+  <div class="post">
+    <div class="thread clearfix">
+        <div class="list">
+          <span class="rank">1</span>
+        </div>
+        <div class="updownvote">
+          <span class="score">2789</span>
+        </div>
+        <div class="description">
+          <h3><a href="#">Captain Teemo on Duty</a></h3>
+          <p>Hup two, three four. The beloved angel and devil of League of Legends.</p>
+          <div class="buttons">
+            <button type="button" class="btn btn-default">Comment</button>
+            <button type="button" class="btn btn-default">Share</button>
+          </div>
+        </div>  
+      </div>
+   </div>
+
+   <div class="post">
+    <div class="thread clearfix">
+        <div class="list">
+          <span class="rank">2</span>
+        </div>
+        <div class="updownvote">
+          <span class="score">4579</span>
+        </div>
+        <div class="description">
+          <h3><a href="#">Too much thought, not enough work</a></h3>
+          <p>The text is suppose to be here but would rather not think of too much to write something here.</p>
+          <div class="buttons">
+            <button type="button" class="btn btn-default">Comment</button>
+            <button type="button" class="btn btn-default">Share</button>
+          </div>
+        </div>  
+      </div>
+   </div>
+
+   <div class="post">
+    <div class="thread clearfix">
+        <div class="list">
+          <span class="rank">3</span>
+        </div>
+        <div class="updownvote">
+          <span class="score">1364</span>
+        </div>
+        <div class="description">
+          <h3><a href="#">Lost in the process but getting the hang of it.</a></h3>
+          <p>There is suppose to be something here but right now I do not know what to write now.</p>
+          <div class="buttons">
+            <button type="button" class="btn btn-default">Comment</button>
+            <button type="button" class="btn btn-default">Share</button>
+          </div>
+        </div>  
+      </div>
+   </div>
+
+   <div class="post">
+    <div class="thread clearfix">
+        <div class="list">
+          <span class="rank">4</span>
+        </div>
+        <div class="updownvote">
+          <span class="score">3264</span>
+        </div>
+        <div class="description">
+          <h3><a href="#">Stupid things you do in League of Legends.</a></h3>
+          <p>Few examples are: stepping on Teemo mushroom, take Nidalee spears to the face, and flash into a wall.</p>
+          <div class="buttons">
+            <button type="button" class="btn btn-default">Comment</button>
+            <button type="button" class="btn btn-default">Share</button>
+          </div>
+        </div>  
+      </div>
+   </div
+
+</body>
+</html>

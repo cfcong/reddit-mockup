@@ -1,0 +1,44 @@
+body {
+  padding: 70px; }
+  body h3 {
+    font-family: arial; }
+  body p {
+    font-family: verdana; }
+  body .thread {
+    height: 150px;
+    width: 1000px; }
+    body .thread .rank {
+      float: left;
+      text-align: center; }
+    body .thread .updownvote {
+      float: left;
+      width: 100px;
+      height: 150px;
+      text-align: center; }
+    body .thread .description {
+      float: left;
+      width: 700px; }
+  body .clearfix {
+    display: inline-block; }
+    body .clearfix:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0; }
+  body .post {
+    height: 150px; }
+    body .post .list {
+      height: 150px;
+      width: 100px;
+      float: left; }
+      body .post .list .rank {
+        padding: 65px 46px 65px 46px;
+        display: inline-block; }
+    body .post .updownvote {
+      height: 150px;
+      width: 100px; }
+      body .post .updownvote .score {
+        padding: 65px 34px 65px 34px;
+        display: inline-block; }

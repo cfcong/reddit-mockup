@@ -1,0 +1,85 @@
+body
+{
+	padding:70px;
+
+	h3
+	{
+		font-family: arial;
+	}
+	p
+	{
+		font-family: verdana;
+	}
+
+	.post
+	{
+
+	}
+
+	.thread
+	{
+		height:150px;
+		width:1000px;
+		.rank{
+			float: left;
+			text-align: center;
+		}
+		.updownvote
+		{
+			float:left;	
+			width:100px;
+			height:150px;
+			text-align: center;
+		}
+		.description
+		{
+			float:left;
+			width:700px;
+		}
+	}
+
+	.clearfix 
+	{
+		display: inline-block;
+
+		&:after 
+		{
+			content: ".";
+			display: block;
+			clear: both;
+			visibility: hidden;
+			line-height: 0;
+			height: 0;
+		}
+	}
+
+	.post
+	{
+		height:150px;
+
+		.list
+		{
+			height:150px;
+			width:100px;
+			float: left;
+
+			.rank
+			{
+				padding:65px 46px 65px 46px;
+				display:inline-block;
+			}
+
+		}
+		.updownvote
+		{
+			height:150px;
+			width:100px;
+
+			.score
+			{
+				padding:65px 34px 65px 34px;
+				display: inline-block;
+			}
+		}
+	}
+}
